@@ -1,6 +1,6 @@
 #include "md5.h"
-#include <mpi.h>
 #include <stddef.h>
+#include <mpi.h>
 #include <math.h>
 
 /*
