@@ -28,7 +28,8 @@ sudo apt install build-essential libopenmpi-dev openmpi-bin
 
 Compile the project using `mpicc`, the MPI C compiler wrapper:
 
-```mpicc -o md5_tool main.c md5.c -lm
+```
+mpicc -o md5_tool main.c md5.c -lm
 ```
 - `main.c`: main program using MPI and MD5.
 - `md5.c`: The implementation of MD5 functions.
