@@ -2,6 +2,12 @@
 
 This is a C-based parallel MD5 hashing tool that uses **MPI (Message Passing Interface)** to distribute computation across multiple processes. It is designed for performance and portability using standard C libraries and a custom MD5 implementation.
 
+##  Note
+
+This project demonstrates a conceptual approach to parallelism in cryptographic hash functions using MD5. While MD5 is relatively simpler and not secure for modern cryptography, this parallel implementation sets the foundation for more complex algorithms like SHA-1, SHA-256, or SHA-512, which involve more intricate bitwise operations and larger buffer states.
+
+The idea is to parallelize the input buffer processing, distributing chunks of data to multiple processes—each handling parts of the hashing pipeline or different inputs. This mimics how modern cryptographic systems handle data in parallel for performance optimization.
+
 ##  Features
 
 - Parallel computation using MPI
