@@ -64,5 +64,5 @@ This project is licensed under the MIT License.
 
 Feel free to contribute by submitting issues or pull requests to improve functionality or performance.
 
----  Let me know if you'd like to include a sample input/output or description of how the parallelism works!`
+--- Let me know if you'd like to include a sample input/output or description of how the parallelism works!
 
