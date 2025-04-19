@@ -21,7 +21,7 @@ This is a C-based parallel MD5 hashing tool that uses **MPI (Message Passing Int
 ```bash
 sudo apt update
 sudo apt install build-essential libopenmpi-dev openmpi-bin
-<<<<<<< HEAD
+
 ```
 
 ## 🛠️ Build Instructions
@@ -30,16 +30,15 @@ Compile the project using `mpicc`, the MPI C compiler wrapper:
 
 ```mpicc -o md5_tool main.c md5.c -lm
 ```
-
-- `main.c`: Your main program using MPI and MD5.
+- `main.c`: main program using MPI and MD5.
 - `md5.c`: The implementation of MD5 functions.
-- `-lm`: Links the math library.
     
 ## ▶️ Run Instructions
 
 Run the compiled executable using `mpirun` with the number of processes you want:
 
-```mpirun -np 4 ./md5_tool
+```
+mpirun -np 4 ./md5_tool
 ```
 
 Replace `4` with the desired number of parallel processes.
@@ -60,8 +59,3 @@ Feel free to contribute by submitting issues or pull requests to improve functio
 
 ---  Let me know if you'd like to include a sample input/output or description of how the parallelism works!`
 
-=======
-
-### 🛠️ **Build Instructions**
-Compile the project using mpicc, the MPI C compiler wrapper:
->>>>>>> 0865df5e56049bd5782079d2f820f7027449adb5
