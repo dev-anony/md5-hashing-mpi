@@ -21,3 +21,6 @@ This is a C-based parallel MD5 hashing tool that uses **MPI (Message Passing Int
 ```bash
 sudo apt update
 sudo apt install build-essential libopenmpi-dev openmpi-bin
+
+### 🛠️ **Build Instructions**
+Compile the project using mpicc, the MPI C compiler wrapper:
